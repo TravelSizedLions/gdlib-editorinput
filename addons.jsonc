@@ -1,7 +1,1 @@
-{
-  "$schema": "https://chickensoft.games/schemas/addons.schema.json",
-  "name": "gdlib-editorinput",
-  "description": "Global editor input listener.",
-  "version": "0.0.0",
-  "addons": {}
-}
+addons/gdlib-editorinput/addons.jsonc
