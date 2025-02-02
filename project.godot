@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="gdlib-editorinput"
+run/main_scene="uid://cpkewxry3vdtl"
+config/features=PackedStringArray("4.4", "Forward Plus")
+
+[autoload]
+
+InputListener="*res://addons/gdlib-editorinput/src/input_listener.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdlib-editorinput/plugin.cfg")
